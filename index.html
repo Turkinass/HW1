@@ -1,7 +1,11 @@
+<!-- This is the homepage of the website, I tried to make it similar to the 
+    provided screenshots. -->
+
 <!DOCTYPE html>
 <html>
 
 <head>
+    <!-- I learned using separate css file from a youtube channel called TheNetNinja -->
     <link rel="stylesheet" href="styles.css">
     <title>GIS Saudi Arabia</title>
     <meta name="description" content="GIS Saudi Arabia, Information About Saudi Arabia">
@@ -11,10 +15,9 @@
 
 
 <body>
-    
     <header>
-        
         <div>
+            <!-- clicking the website logo will take you to the homepage. -->
             <a href="index.html">
                 <img src="img/logo.png" alt="GIS Logo">
             </a>        
@@ -29,7 +32,7 @@
 
         <div class="sign">
             <img src="img/account_icon.svg" alt="User icon">
-            <a href="sign.html">Sign in / Sign up</a>
+            <a href="sub-pages/sign.html">Sign in / Sign up</a>
         </div>
            
     </header>
@@ -39,9 +42,11 @@
         <div class="main-map">
             <img src="img/map1.jpg" alt="Saudi Arabia Satellite Image" usemap="#image-map">
             <map name="image-map">
-                <area class="riyadh" alt="Riyadh City" title="Riyadh City: The Capital of Saudi Arabia." href="riyadh.html" coords="450,374,700,649" shape="rect">
-                <area class="dammam" alt="Dammam City" title="Dammam City: Biggest Ciry in the Eastern Provide." href="dammam.html" coords="675,235,870,475" shape="rect">
-                <area class="jeddah" alt="Jeddah City" title="Jeddah City: One of The Oldest Cities in the Kingdom." href="jeddah.html" coords="165,334,376,630" shape="rect">
+                <!-- The map have 3 clickable parts, I tried to make the parts bigger
+                then its actual size to make it easier to use. -->
+                <area class="riyadh" alt="Riyadh City" title="Riyadh City: The Capital of Saudi Arabia." href="sub-pages/riyadh.html" coords="450,374,700,649" shape="rect">
+                <area class="dammam" alt="Dammam City" title="Dammam City: Biggest Ciry in the Eastern Provide." href="sub-pages/dammam.html" coords="675,235,870,475" shape="rect">
+                <area class="jeddah" alt="Jeddah City" title="Jeddah City: One of The Oldest Cities in the Kingdom." href="sub-pages/jeddah.html" coords="165,334,376,630" shape="rect">
             </map>
             <p><span>Saudi Arabia Information: </span>Kingdom of Saudi 
                 Arabia (KSA) is an Arab Islamic state, the largest country 
@@ -106,6 +111,11 @@
 
         <hr>    
     </main>
+
+    <footer>
+        <p>© 2020 Turki Alsaedi, 201745090</p>
+        <a href="sub-pages/validation.html">Validation link</a>
+    </footer>
 </body>
 
 </html>
